@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<head>
+<!--Modified from: https://codepen.io/anon/pen/PxKEWo-->
+<style>
+body {
+    background-image: url('bg.jpg');
+    margin: 0px;
+    padding: 0px;
+}
+
+#fakeHeight {
+    height: 5000px;
+    width: 1px;
+}
+
+#scrollPercentLabel {
+    font-family: sans-serif;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="moment.min.js"></script>
+<script src="moment-timezone-with-data.min.js"></script>
+<script src="time.js"></script>
+
+</head>
+<body>
+    <p id="fakeHeight"></p>
+    <p id="scrollPercentLabel">
+        Scrolling this page to change the TIME <br><br>
+        <span id="JST"></span>  (Japan)<br>
+        <span id="CST"></span>  (Taiwan)<br>
+        <span id="CERN"></span> (Geneva)<br>
+        <span id="LHO"></span> (LHO)<br>
+        <span id="LLO"></span> (LLO)<br>
+    </p>
+</body>
+
+
+
+
